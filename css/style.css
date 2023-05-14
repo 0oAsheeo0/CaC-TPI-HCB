@@ -1,18 +1,22 @@
 @media screen and (max-width:1000px) {
     .texto{ font-size: 0.7rem; }
 }
+
 @media screen and (max-width:360px) {
     .carousel-item img{ 
         height: 14rem ;  
     }
 }
+
 .carousel-item img{ 
     max-height: calc(100vh - 61.5px);  
 }
+
 body, html {
     margin:0;
     padding:0;
   }
+
 .navegador{
     background-color: #353a40;
 }
@@ -21,17 +25,40 @@ body, html {
     right: 5%;
     text-shadow: 1px 1px #808080;
 }
+
 .texto{
     max-height: 100%;
 }
+
 .btn-green{
     background-color: #29A744;
     border-color: #29A744;
 }
+
 .card img{
     max-height: 305px;
 }
+
 .separation{
     padding-right: 0.1rem;
 }
-textarea { resize: none; }
+
+textarea { 
+    resize: none; 
+}
+
+.text-small{
+    font-size: 0.7rem;
+    text-align: left;
+    color: #b8b3b3;
+}
+
+.back-color{
+    background-color: #1e516e;
+    color: #b8b3b3;
+}
+
+.back-color a{
+    color: #d6d1d1;
+    word-break: break-word;
+}
