@@ -11,7 +11,7 @@ const borrar = document.querySelector('[aria-label="Borrar"]');
 const totalPrecio = document.querySelector('[name="out"]');
 const precio = 200;
 
-var regValido = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+var regValido = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 var cant = parseInt(cantidad.value);
 
 //Seccion de Eventos
