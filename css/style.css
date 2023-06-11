@@ -62,3 +62,16 @@ textarea {
     color: #d6d1d1;
     word-break: break-word;
 }
+
+.minitext{
+    font-size: 0.8rem;
+    color: #6c757d !important;
+}
+.bold1{
+    font-weight: 600 !important
+}
+
+.out-back{
+    background-color: #c1dbf0;
+    border-color: #b2d0e7;
+}
